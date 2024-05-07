@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      /* body {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+      } */
+      .content {
+        width: 720px; /* 自訂 */
+        margin: 0 auto;
+        background: #efefef; /* 自訂 */
+        font-size: 16px;
+        line-height: 1.2;
+        padding:  4%;
+        ul {
+          width: 100%;
+          padding: 0;
+          margin: 0;
+
+          li {
+            list-style: none;
+            padding: 3% 2%;
+            border-bottom: 1px solid #ccc;
+          }
+          li:last-child {
+            border-bottom: none;
+          }
+        }
+        b {
+          font-weight: bold;
+          display: inline-block;
+          margin-bottom: 5px;
+        }
+        p {
+          padding: 0;
+          margin: 0;
+        }
+      }
+      .ok-btn {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 50px;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+        background: rgb(212, 57, 57);
+        margin-top: 40px;
+        
+        &:hover {
+          background: rgb(47, 75, 144);
+        }
+      }
+      @media (max-width: 1170px) {
+        .content {
+          width: 100%;
+          padding:8% 4%;
+          ul {
+            li {
+              padding: 4% ;
+            }
+          }
+        }
+      }
+    </style>
+    <div class="content">
+      <ul>
+        <li>
+          <b>有效期限 </b>
+          <p>2024年3月18日 12:00 - 2024年3月18日 14:00</p>
+        </li>
+        <li>
+          <b>優惠內容 </b>
+          <p>數量有限，先用先贏！18% 蝦幣回饋 低消 $2,000 最高回饋800蝦幣</p>
+        </li>
+        <li>
+          <b>商品</b>
+          <p>僅適用於指定商品</p>
+        </li>
+        <li>
+          <b>付款 </b>
+          <p>適用於所有付款方式</p>
+        </li>
+        <li>
+          <b>查看詳情 </b>
+          <p>
+            優惠代碼【JDK5J6M9H3】，結帳滿$2000元即可享有18%蝦幣回饋，領券最高回饋800蝦幣！數量有限，兌完為止。
+          </p>
+        </li>
+      </ul>
+      <a class="ok-btn" href="#">了解</a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,317 @@
+// 檔案位置: styles/global.scss
+// 變數覆蓋用 (Variable overrides)
+// 全站配色 colors
+//0209-更新墨韻雅筆配色 promary &secondary
+$primary: #7c7477;
+$secondary: #333333;
+$light: #f1f1ee;
+$dark: #404040;
+$success: #7eb4e6;
+$danger: #ff4136;
+
+// 按鈕圓角邊 button radius
+$border-radius: 0.2em;
+$border-radius-sm: 0.2em;
+$border-radius-lg: 0.2em;
+
+// 固定card高度
+// https://getbootstrap.com/docs/5.3/components/card/#grid-cards
+$card-height: 100%;
+
+// ↑↑↑  變數覆蓋(Variable overrides) 要寫在這行"上面"  ↑↑↑
+// 這裡導入所有 bootstrap 樣式
+// 最後營運階段(實務)可以用部份導入來進行最佳化
+// 參考: https://getbootstrap.com/docs/5.3/customize/sass/#importing
+@import '~bootstrap/scss/bootstrap';
+// ↓↓↓  其它客製樣式要寫在這行的"下面" ↓↓↓
+
+// bs5內建圖示字體
+// 如果有使用其它圖示字體可以註解不使用
+@import '~bootstrap-icons/font/bootstrap-icons';
+
+// google Noto Sans TC 字體
+// @import 'https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap';
+
+//0209-更新 Nota Serif TC 字體
+@import 'https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Noto+Serif+TC:wght@400;700;900&display=swap';
+
+// fixed for __next root div
+#__next {
+  flex-direction: column;
+  height: 100%;
+  display: flex;
+}
+
+main > .container {
+  padding: 100px 15px 0;
+}
+
+body {
+  font-family: 'Noto Serif TC', 'Noto Sans TC Regular', Helvetica, Arial,
+    'PingFang TC', '苹方-繁', 'Heiti TC', '黑體-繁', 'Microsoft JhengHei',
+    '微軟正黑體',
+    // Cross-platform generic font family (default user interface font)
+    system-ui,
+    // Safari for macOS and iOS (San Francisco)
+    -apple-system,
+    // Windows
+    'Segoe UI',
+    // Android
+    Roboto,
+    // Basic web fallback
+    'Helvetica Neue',
+    Arial,
+    // Linux
+    'Noto Sans',
+    'Liberation Sans',
+    // Sans serif fallback
+    sans-serif,
+    // Emoji fonts
+    'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+  letter-spacing: 2px;
+}
+a {
+  text-decoration: none;
+}
+
+.form-member {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+//墨韻雅筆 style guide
+
+// typography
+
+$h1: 34.38px;
+$h2: 28.5px;
+$h3: 21px;
+$h4: 15.75px;
+$h5: 13.5px;
+$h6: 12px;
+$p: 10.5px;
+$s: 9px;
+
+.text-h1 {
+  font-size: $h1;
+  font-weight: 900;
+}
+.text-h2 {
+  font-size: $h2;
+  font-weight: 700;
+}
+.text-h3 {
+  font-size: $h3;
+  font-weight: 700;
+}
+.text-h4 {
+  font-size: $h4;
+  font-weight: 700;
+}
+.text-h5 {
+  font-size: $h5;
+  font-weight: 700;
+}
+.text-h6 {
+  font-size: $h6;
+  font-weight: 700;
+}
+.text-p {
+  font-size: $p;
+  font-weight: 400;
+}
+.text-bold {
+  font-size: $p;
+  font-weight: 700;
+}
+.text-small {
+  font-size: $s;
+  font-weight: 400;
+}
+
+// Color for scss
+$my-primary: #7c7477;
+$my-secondary: #7c7c74;
+$my-notice: #ff0083;
+$my-notice-light: #ff9fd0;
+
+$my-black: #404040;
+$my-white: #f1f1ee;
+$my-gray: #929292;
+
+// for css use
+:root {
+  --my-primary: #7c7477;
+  --my-secondary: #7c7c74;
+  --my-notice: #ff0083;
+  --my-notice-light: #ff9fd0;
+  --my-black: #404040;
+  --my-white: #f1f1ee;
+  --my-gray: #929292;
+  --h1: 34.38px;
+  --h2: 28.5px;
+  --h3: 21px;
+  --h4: 15.75px;
+  --h5: 13.5px;
+  --h6: 12px;
+  --p: 10.5px;
+  --s: 9px;
+  --swiper-navigation-color: #ff0083;
+  --swiper-pagination-color: #ff0083;
+}
+
+// Background Colors
+.bg-my-primary {
+  background-color: $my-primary;
+}
+
+.bg-my-secondary {
+  background-color: $my-secondary;
+}
+
+.bg-my-notice {
+  background-color: $my-notice;
+}
+
+.bg-my-notice-light {
+  background-color: $my-notice-light;
+}
+
+.bg-my-black {
+  background-color: $my-black;
+}
+
+.bg-my-white {
+  background-color: $my-white;
+}
+
+.bg-my-gray {
+  background-color: $my-gray;
+}
+
+//text-color
+.text-my-primary {
+  color: $my-primary;
+}
+
+.text-my-secondary {
+  color: $my-secondary;
+}
+
+.text-my-notice {
+  color: $my-notice;
+}
+
+.text-my-notice-light {
+  color: $my-notice-light;
+}
+
+.text-my-black {
+  color: $my-black;
+}
+
+.text-my-white {
+  color: $my-white;
+}
+
+.text-my-gray {
+  color: $my-gray;
+}
+
+//text-contents    用途：文字段落/商品介紹/課程介紹等等
+//如果覺得字太小 再另外寫一個font-size去覆蓋就好
+.my-text-contents-CH {
+  color: $my-black;
+  font-size: $h5;
+  font-weight: 400;
+  letter-spacing: 2.4px;
+  text-align: justify;
+}
+.my-text-contents-EN {
+  color: $my-black;
+  font-size: $h5;
+  font-weight: 400;
+  text-align: justify;
+}
+
+//button
+.my-button1 {
+  display: flex;
+  padding: 8.25px 0px 9.25px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 37.5px;
+  background-color: $my-primary;
+  font-size: $h6;
+  font-weight: 400;
+  color: $my-white;
+  cursor: pointer;
+
+  &:hover {
+    background-color: transparent;
+    border-radius: 37.5px;
+    border: 1.125px solid var(--primary, #7c7477);
+
+    color: $my-primary;
+  }
+}
+
+.my-button2 {
+  display: flex;
+  padding: 8.25px 0px 9.25px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 37.5px;
+  border: 1.125px solid var(--primary, #7c7477);
+  font-size: $h6;
+  font-weight: 400;
+  color: $my-primary;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $my-primary;
+    border-radius: 37.5px;
+
+    color: $my-white;
+  }
+}
+
+.my-button3 {
+  display: flex;
+  padding: 8.25px 0px 9.25px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 37.5px;
+  border: 1.125px solid var(--my-white);
+  font-size: $h6;
+  font-weight: 400;
+  color: $my-white;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $my-white;
+    border-radius: 37.5px;
+    color: $my-black;
+  }
+}
+//盒子陰影
+.box-shadow {
+  box-shadow: 1px 1px 6.7px 0px rgba(0, 0, 0, 0.35);
+}
+// 玻璃霧面材質
+.glass-texture {
+  background-color: rgba(241, 241, 238, 0.85);
+  backdrop-filter: blur(5px);
+}
+
+// below is test only
+
+//new css

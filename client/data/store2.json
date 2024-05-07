@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "台北士林店",
+    "area": "n",
+    "phone": "02-25876171",
+    "address": "台北市士林區中正路325號",
+    "opentime": "09:00",
+    "closetime": "18:00",
+    "img": "/images/myService/n01.jpg",
+    "lat": 25.094644872368786,
+    "lng": 121.52328299150696
+  },
+  {
+    "id": 2,
+    "name": "台北內湖店",
+    "area": "n",
+    "phone": "02-82761962",
+    "address": "台北市內湖區瑞光路337號C棟1樓",
+    "opentime": "07:00",
+    "closetime": "16:00",
+    "img": "/images/myService/n02.jpeg",
+    "lat": 25.07780553547014,
+    "lng": 121.57562406751765
+  },
+  {
+    "id": 3,
+    "name": "台北信義店",
+    "area": "n",
+    "phone": "02-67336222",
+    "address": "台北市信義區松高路11號5F",
+    "opentime": "07:00",
+    "closetime": "16:00",
+    "img": "/images/myService/n03.jpeg",
+    "lat": 25.039514533857467,
+    "lng": 121.56570371811368
+  },
+  {
+    "id": 14,
+    "name": "台中北屯店",
+    "area": "m",
+    "phone": "04-98026166",
+    "address": "台中市北屯區安順東六街39號",
+    "opentime": "09:30",
+    "closetime": "18:30",
+    "img": "/images/myService/m01.jpg",
+    "lat": 24.174527909544178,
+    "lng": 120.68450181407806
+  },
+  {
+    "id": 15,
+    "name": "台中逢甲店",
+    "area": "m",
+    "phone": "04-83397749",
+    "address": "台中市西屯區逢甲路134號1樓",
+    "opentime": "09:30",
+    "closetime": "18:30",
+    "img": "/images/myService/m02.jpg",
+    "lat": 24.17844128678847,
+    "lng": 120.6430892599914
+  }
+]

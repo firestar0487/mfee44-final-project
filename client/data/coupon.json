@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "coupon_name": "鋼筆週 - 所有鋼筆類商品8折",
+    "coupon_code": "PEN001",
+    "ValidFrom": "2024-04-01",
+    "ValidTo": "2024-04-07",
+    "MinimumSpend": 50.0,
+    "DiscountType": "百分比",
+    "DiscountValue": 20,
+    "UsageLimit": 200,
+    "UsedCount": 0
+  },
+  {
+    "id": 2,
+    "coupon_name": "購買任何兩支鋼筆送墨水一瓶",
+    "coupon_code": "PEN002",
+    "ValidFrom": "2024-05-01",
+    "ValidTo": "2024-05-31",
+    "MinimumSpend": 100.0,
+    "DiscountType": "贈品",
+    "DiscountValue": 1,
+    "UsageLimit": 100,
+    "UsedCount": 0
+  },
+  {
+    "id": 3,
+    "coupon_name": "首次購買鋼筆享受9折優惠",
+    "coupon_code": "PEN003",
+    "ValidFrom": "2024-06-01",
+    "ValidTo": "2024-06-30",
+    "MinimumSpend": 0.0,
+    "DiscountType": "百分比",
+    "DiscountValue": 10,
+    "UsageLimit": 300,
+    "UsedCount": 0
+  },
+  {
+    "id": 4,
+    "coupon_name": "高級鋼筆專場 - 滿500減50",
+    "coupon_code": "PEN004",
+    "ValidFrom": "2024-07-01",
+    "ValidTo": "2024-07-31",
+    "MinimumSpend": 500.0,
+    "DiscountType": "固定金額",
+    "DiscountValue": 50,
+    "UsageLimit": 150,
+    "UsedCount": 0
+  },
+  {
+    "id": 5,
+    "coupon_name": "鋼筆配件週 - 配件類商品滿100減20",
+    "coupon_code": "PEN005",
+    "ValidFrom": "2024-08-01",
+    "ValidTo": "2024-08-07",
+    "MinimumSpend": 100.0,
+    "DiscountType": "固定金額",
+    "DiscountValue": 20,
+    "UsageLimit": 250,
+    "UsedCount": 0
+  }
+]

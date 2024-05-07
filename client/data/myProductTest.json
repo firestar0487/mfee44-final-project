@@ -1,0 +1,53 @@
+[
+    {
+      "type": "general",
+      "id": 1,
+      "name": "PILOT 百樂 Capless按鍵鋼筆1",
+      "image": "/images/common/pokemons/001.png",
+      "price": 7900,
+      "desc": "PILOT(CAPLESS)系列是世界首創的按鍵式鋼筆,1963年開使販售後,一直名列於暢銷榜上,CAPLESS系列如同原子筆一般,只要按鍵按壓一下,就能輕鬆書寫.",
+      "brand": "PILOT",
+      "color": "銀灰",
+      "nib":"F",
+      "material":"黃銅",
+      "url":"#"
+    },
+    {
+      "type": "general",
+      "id": 2,
+      "name": "PILOT 百樂 Capless按鍵鋼筆2",
+      "image": "/images/common/pokemons/002.png",
+      "price": 12640,
+      "desc": "在PILOT製作鋼筆的百年歷史中，誕生了「CUSTOM」系列。CUSTON」譯為「訂製的、容製的」。表示這支筆的由來就是為了要因應各種使用鋼筆的人。每個人的書寫方式都不同，喜好的筆尖粗細也不相同，故「CUSTOM」系列有最完整的筆尖與尺寸來對應不同的書寫方式",
+      "brand": "PILOT",
+      "color": "黑金",
+      "nib":"F",
+      "material":"橡膠",
+      "url":"#"
+    },
+    {
+      "type": "course",
+      "id": 214,
+      "name": "筆墨悠揚：掌握書法之道",
+      "image": "/images/common/pokemons/004.png",
+      "price": 1300,
+      "desc": "專為初學者設計的鋼筆書法課，輕鬆學習優雅書寫技巧。",
+      "teacher": "李大維",
+      "category": "書法",
+      "isOnline":true,
+      "total_minute":60,
+      "url":"#"
+    },{
+      "type": "course",
+      "id": 215,
+      "name": "鋼筆新手入門：寫出優雅字跡",
+      "image": "/images/common/pokemons/005.png",
+      "price": 1400,
+      "desc": "由淺入深，教授基礎到進階的鋼筆書法，打造個人風格。",
+      "teacher": "張子驗",
+      "category": "書法",
+      "isOnline":false,
+      "total_minute":120,
+      "url":"#"
+    }
+]

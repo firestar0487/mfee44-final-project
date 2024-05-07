@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@import 'https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap';
+.carosuel {
+  padding-inline: 0px !important;
+  box-shadow: 10px 10px 10px red;
+}
+
+/* hero-section */
+.hero-section .image-container {
+  position: relative; /* 對Image組件是必需的 */
+  height: 900px; /* 或任何特定的高度 */
+}
+.hero-section .image-container .hero-button {
+  display: none;
+}
+@media (max-width: 991px) {
+  .hero-section .image-container .hero-button {
+    display: flex;
+    position: absolute;
+    width: 200px;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+.hero-section .hero-content {
+  display: block;
+}
+.hero-section .hero-text-body {
+  width: 336px;
+  text-align: center;
+}
+.hero-section .hero-text-body .text-top {
+  margin-bottom: 30px;
+}
+.hero-section .hero-text-body .text-top .slogan {
+  margin-block: 30px;
+}
+.hero-section .hero-text-body .text-top .intro {
+  line-height: 150%;
+}
+.hero-section .hero-text-body .text-down .title {
+  margin-bottom: 20px;
+}
+@media (max-width: 991px) {
+  .hero-section .hero-content {
+    display: none;
+  }
+}
+
+/* concept-section */
+.concept-section {
+  height: 800px;
+}
+.concept-section .concept-medium {
+  padding-inline: 100px;
+}
+.concept-section .concept-medium .title {
+  font-size: 59px;
+  color: var(--my-secondary);
+  font-family: "Gideon Roman";
+  font-weight: 400;
+}
+.concept-section .concept-medium .flex-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 430px;
+}
+.concept-section .concept-medium .rwd-container {
+  display: none;
+}
+.concept-section .concept-medium .slogan {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%);
+  color: var(--my-white);
+}
+.concept-section .concept-medium .concept-content {
+  color: var(--my-white);
+  letter-spacing: 2.4px;
+  font-size: 10.5px;
+  font-weight: 400;
+  text-align: justify;
+  transition: all 0.5s;
+}
+.concept-section .concept-medium .conecpt-nav li {
+  cursor: pointer;
+  padding-block: 15px;
+  transition: all 0.5s;
+}
+.concept-section .concept-medium .conecpt-nav li.active {
+  color: var(--my-notice);
+  border-left: 1px solid var(--my-notice);
+}
+
+@media (max-width: 991px) {
+  .concept-section {
+    overflow: hidden;
+  }
+  .flex-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px !important;
+  }
+  .rwd-container {
+    display: block !important;
+  }
+  .slogan {
+    position: static !important;
+    transform: translate(0%) !important;
+    font-size: 18px !important;
+  }
+  .concept-medium {
+    padding-inline: 30px !important;
+  }
+  .concept-left {
+    display: none !important;
+  }
+  .concept-right {
+    display: none !important;
+  }
+  .vertical-text {
+    letter-spacing: 2px !important;
+    writing-mode: horizontal-tb !important;
+  }
+  .conecpt-nav li {
+    cursor: pointer;
+    padding-block: 0px !important;
+    padding-inline: 5px;
+    transition: all 0.5s;
+    font-size: var(--h6);
+  }
+  .conecpt-nav li.active {
+    color: var(--my-notice);
+    border-left: none !important;
+    border-bottom: 1px solid var(--my-notice);
+  }
+}
+/* module */
+.vertical-text {
+  writing-mode: vertical-rl;
+  letter-spacing: 0.5rem;
+}/*# sourceMappingURL=index.module.css.map */

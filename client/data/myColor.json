@@ -1,0 +1,63 @@
+[
+    {
+      "color_id": 1,
+      "color_name": "亮黑",
+      "color_bg": "black"
+    },
+    {
+      "color_id": 2,
+      "color_name": "青銅",
+      "color_bg": "#CD7F32"
+    },
+    {
+      "color_id": 3,
+      "color_name": "銀灰",
+      "color_bg": "gray"
+    },
+    {
+      "color_id": 4,
+      "color_name": "赤紅",
+      "color_bg": "red"
+    },
+    {
+      "color_id": 5,
+      "color_name": "深藍",
+      "color_bg": "blue"
+    },
+    {
+      "color_id": 6,
+      "color_name": "棕色",
+      "color_bg": "brown"
+    },
+    {
+      "color_id": 7,
+      "color_name": "深紫",
+      "color_bg": "purple"
+    },
+    {
+      "color_id": 8,
+      "color_name": "粉紅",
+      "color_bg": "pink"
+    },
+    {
+      "color_id": 9,
+      "color_name": "翠綠",
+      "color_bg": "green"
+    },
+    {
+      "color_id": 10,
+      "color_name": "金黃",
+      "color_bg": "yellow"
+    },
+    {
+      "color_id": 11,
+      "color_name": "透白",
+      "color_bg": "white"
+    },
+    {
+      "color_id": 12,
+      "color_name": "黑金",
+      "color_bg": "#FFD700"
+    }
+  ]
+  

@@ -1,0 +1,26 @@
+{
+    "workbench.colorCustomizations": {
+      "activityBar.background": "#7c7477",
+      "titleBar.activeBackground": "#7c7477",
+      "titleBar.activeForeground": "#FBFAFA"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.configPath": ".prettierrc.json",
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": ["source.formatDocument", "source.fixAll.eslint"],
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[scss]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "emmet.syntaxProfiles": {
+      "javascript": "jsx"
+    }, 
+  }
+  
